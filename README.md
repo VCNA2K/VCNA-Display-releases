@@ -13,9 +13,9 @@
 
 </div>
 
-Repo này chứa **bản cài** và **feed cập nhật tự động**. Mã nguồn nằm ở repo riêng.
+Trang tải về và cập nhật ứng dụng **VCNA Display** cho macOS.
 
-**3.8.2 là bản phát hành công khai đầu tiên.**
+**3.8.2 là bản phát hành đầu tiên.**
 
 ---
 
@@ -88,9 +88,9 @@ Nó điều khiển ứng dụng đang chạy qua socket cục bộ, nên app ph
 
 ## Tự động cập nhật
 
-Ứng dụng tự kiểm tra bản mới qua `appcast.xml` trong release mới nhất, và chỉ nhận bản cập nhật có **chữ ký EdDSA** khớp với khoá công khai nhúng trong app. Cập nhật cũng có thể gọi tay từ bảng điều khiển.
+Ứng dụng tự kiểm tra bản mới và thông báo khi có. Anh cũng có thể kiểm tra ngay bằng tay: mở bảng điều khiển trên thanh menu → **Kiểm tra cập nhật**.
 
-> **Với người quản lý repo này:** mỗi release phải có đủ **cả hai** file `VCNA-Display.dmg` và `appcast.xml`. Xoá hoặc sửa `appcast.xml` là làm đứt luồng cập nhật của mọi người đang dùng.
+Mỗi bản cập nhật đều được kiểm tra chữ ký trước khi cài, nên ứng dụng chỉ nhận đúng bản do tác giả phát hành.
 
 ---
 
