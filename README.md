@@ -47,8 +47,8 @@ Trên macOS, màn hình rời thiệt thòi hơn màn hình MacBook: phím độ
 
 **Tiện ích**
 
-- Ô **Chế độ tối**, **Night Shift**, **True Tone**, **Chống ngủ** ngay trên trang chính.
-- **Bộ hút màu**: bấm vào bất kỳ điểm nào trên màn hình, mã màu HEX được chép sẵn để dán.
+- Nút tròn **Chế độ tối**, **Night Shift**, **True Tone** và ô **Chống ngủ** ngay trên trang chính.
+- **Hút màu** ngay trên trang chính: bấm vào bất kỳ điểm nào trên màn hình, mã màu HEX được chép sẵn để dán.
 - Khởi động cùng macOS. Giao diện **tiếng Việt** và **English**.
 
 Ứng dụng chạy ở thanh menu, không có icon dưới Dock.
@@ -78,9 +78,9 @@ curl -fsSL https://raw.githubusercontent.com/VCNA2K/VCNA-Display-releases/main/i
 | Quyền | Khi nào cần |
 |---|---|
 | **Accessibility** | Để phím độ sáng, âm lượng trên bàn phím điều khiển được màn hình rời, và để **Nhớ vị trí cửa sổ** dời được cửa sổ. Khi bạn bật một trong hai tính năng này trong Cài đặt, app sẽ mở đúng chỗ để cấp quyền. Phím tắt tự đặt không cần quyền này. |
-| **Mật khẩu quản trị** | Khi bật HiDPI cho một màn hình rời. |
+| **Mật khẩu quản trị** | Khi bật HiDPI hoặc **Thêm cỡ hiển thị** cho một màn hình rời. |
 
-Sau khi cập nhật mà phím độ sáng hoặc Nhớ vị trí cửa sổ ngừng hoạt động: vào **System Settings → Privacy & Security → Accessibility**, tắt VCNA Display rồi bật lại.
+Từ bản 3.9.5, app giữ quyền Accessibility qua các lần cập nhật. Nếu nâng cấp từ bản 3.9.4 trở về trước mà phím độ sáng hoặc Nhớ vị trí cửa sổ ngừng hoạt động: vào **System Settings → Privacy & Security → Accessibility**, tắt VCNA Display rồi bật lại (chỉ cần một lần).
 
 ---
 
@@ -98,7 +98,7 @@ Màn hình MacBook không cần DDC/CI: app điều khiển nó trực tiếp.
 
 ## Tự động cập nhật
 
-App tự kiểm tra bản mới và báo ngay trên bảng điều khiển. Kiểm tra bằng tay: bảng điều khiển trên thanh menu → **Cài đặt** → **Kiểm tra cập nhật**.
+App tự kiểm tra bản mới và báo ngay trên bảng điều khiển. Kiểm tra bằng tay: bảng điều khiển trên thanh menu → **Cài đặt** → thẻ **Chung** → **Kiểm tra cập nhật**.
 
 Mỗi bản cập nhật đều được kiểm tra chữ ký trước khi cài, nên app chỉ nhận đúng bản do tác giả phát hành.
 
@@ -106,7 +106,7 @@ Mỗi bản cập nhật đều được kiểm tra chữ ký trước khi cài,
 
 ## Giấy phép
 
-VCNA Display **miễn phí**: bạn được tải, cài và dùng trên bao nhiêu máy tuỳ ý, cho cả việc cá nhân lẫn công việc.
+VCNA Display **miễn phí**: bạn được tải, cài và dùng trên bao nhiêu máy tuỳ ý, cho cả việc cá nhân lẫn công việc. Không được sửa đổi, dịch ngược hay phát tán lại app dưới bất kỳ hình thức nào.
 
 Muốn giới thiệu cho bạn bè hay đồng nghiệp, hãy gửi họ link trang này: họ sẽ nhận đúng bản chính thức mới nhất, và app tự cập nhật từ đó về sau.
 
